@@ -14,6 +14,7 @@ class pila():
        if self.items:
             letra = self.items.pop() # Quita elementos
             print(f"Letra '{letra}' eliminada de la pila. (Tope = {len(self.items)})")
+           # len: Muestra el numero de elementos actuales que están dentro de la pila
        else:
            print("La pila está vacía, no hay nada que eliminar.\n")
         
